@@ -1,0 +1,8 @@
+{
+  "name": "WebCraft AI",
+  "description": "An intelligent website architect that transforms natural language descriptions into structured web blueprints, including layouts, content strategies, and ready-to-use React/Tailwind code snippets.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
