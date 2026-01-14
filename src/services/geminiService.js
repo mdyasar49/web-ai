@@ -1,7 +1,8 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI(import.meta.env.VITE_AI_API_KEY);
+const apiKey = import.meta.env.VITE_AI_API_KEY || import.meta.env.GEMINI_API_KEY || import.meta.env.VITE_GEMINI_API_KEY;
+const genAI = new GoogleGenerativeAI(apiKey);
 
 export const generateWebsite = async (prompt) => {
   const model = genAI.getGenerativeModel({
