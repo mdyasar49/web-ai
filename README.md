@@ -1,9 +1,9 @@
 <div align="center">
-  <img width="1200" alt="ReactGenAI Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" alt="Nexus AI Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
   
   <br />
   
-  # 🚀 ReactGenAI
+  # 🚀 Nexus AI
   
   **Transform your vision into production-ready React code in seconds.**
   
@@ -15,11 +15,11 @@
 
 ---
 
-### 💡 What is ReactGenAI?
+### 💡 What is Nexus AI?
 
-ReactGenAI is a next-generation, AI-driven development tool designed to scaffold modern, high-performance React components from simple natural language descriptions.
+Nexus AI is a next-generation, AI-driven development tool designed to scaffold modern, high-performance React components from simple natural language descriptions.
 
-Built with **React 19** and **Material UI (MUI)**, it leverages the power of **Google Gemini AI** to bridge the gap between concept and code. Whether you need a landing page, a complex UI section, or a specialized dashboard, ReactGenAI generates clean, responsive, and Tailwind-ready JSX instantly.
+Built with **React 19** and **Material UI (MUI)**, it leverages the power of **Google Gemini AI** to bridge the gap between concept and code. Whether you need a landing page, a complex UI section, or a specialized dashboard, Nexus AI generates clean, responsive, and Tailwind-ready JSX instantly.
 
 ---
 
