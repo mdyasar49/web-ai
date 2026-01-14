@@ -41,7 +41,7 @@ Built with **React 19** and **Material UI (MUI)**, it leverages the power of **G
 | **UI System**      | [Material UI (MUI)](https://mui.com/)                       |
 | **Build Pipeline** | [Vite](https://vitejs.dev/)                                 |
 | **Styling**        | [Tailwind CSS](https://tailwindcss.com/) (Generated output) |
-| **Intelligence**   | [Google Gemini AI](https://aistudio.google.com/)            |
+| **Intelligence**   | [Google Gemini AI](https://ai.google.dev/)                  |
 
 ---
 
@@ -68,7 +68,7 @@ web-ai/
 #### 1. Prerequisites
 
 - **Node.js** (v18.0.0 or higher)
-- **Gemini API Key** (Obtain from [Google AI Studio](https://aistudio.google.com/app/apikey))
+- **Gemini API Key** (Obtain from [Google AI](https://ai.google.dev/))
 
 #### 2. Installation
 
@@ -109,10 +109,5 @@ The application will launch at `http://localhost:3000`.
 ---
 
 <div align="center">
-  <p>View your app in AI Studio:</p>
-  <a href="https://ai.studio/apps/drive/1BzoybK5EaXKsSd4WvCgUUPm33Bn3dqD1" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Open%20in-AI%20Studio-orange?style=for-the-badge&logo=google" alt="AI Studio" />
-  </a>
-  <br />
-  <p>© 2026 Crafted with precision by Antigravity AI</p>
+  <p>© 2026 Built with care for modern web.</p>
 </div>
