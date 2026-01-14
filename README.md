@@ -4,7 +4,7 @@
 
 # ReactGenAI
 
-ReactGenAI is a powerful, AI-driven tool designed to scaffold modern, responsive React components styled with Tailwind CSS from simple text descriptions. Leveraging the capabilities of Gemini AI, it allows developers to quickly generate high-quality landing pages, UI sections, and more.
+ReactGenAI is a powerful, AI-driven tool designed to scaffold modern, responsive React components styled with Tailwind CSS from simple text descriptions. Built with **React 19** and **Material UI**, it leverages the capabilities of Gemini AI to allow developers to quickly generate high-quality landing pages, UI sections, and more.
 
 ## ✨ Features
 
@@ -17,8 +17,9 @@ ReactGenAI is a powerful, AI-driven tool designed to scaffold modern, responsive
 ## 🛠 Tech Stack
 
 - **Framework**: [React 19](https://react.dev/) (JavaScript)
+- **UI Framework**: [Material UI (MUI)](https://mui.com/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (for generated components)
 - **AI Models**: [Google Gemini AI](https://aistudio.google.com/)
 
 ## 🚀 Getting Started
