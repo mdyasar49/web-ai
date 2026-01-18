@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { generateWebsite } from '../services/geminiService';
+import { generateWebsite } from '../services/apiService';
 
 export const useNexus = () => {
   const [prompt, setPrompt] = useState('');
@@ -45,6 +45,7 @@ export const useNexus = () => {
 
     try {
       const data = await generateWebsite(prompt);
+      console.log('Data received from API:', data);
       const historyItem = { ...data, id: Date.now(), prompt };
       setResult(historyItem);
       saveToHistory(historyItem);

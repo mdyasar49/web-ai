@@ -26,6 +26,7 @@ const Workspace = ({
   copying, 
   copyToClipboard 
 }) => {
+  console.log('Workspace rendering with result:', result);
   if (!result) {
     return (
       <Box 
@@ -70,7 +71,8 @@ const Workspace = ({
           flexDirection: 'column',
           bgcolor: '#0d0d0f',
           border: '1px solid rgba(255,255,255,0.06)',
-          height: '100%'
+          height: '100%',
+          minHeight: { xs: '600px', md: '100%' }
         }}
       >
         {/* Workspace Tabs */}

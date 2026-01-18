@@ -56,11 +56,11 @@ const App = () => {
       <Header openDialog={nexus.openDialog} />
 
       {/* Main Workspace */}
-      <Box sx={{ flex: 1, p: 3, position: 'relative', zIndex: 1, overflow: 'hidden' }}>
-        <Grid container spacing={3} sx={{ height: '100%' }}>
+      <Box sx={{ flex: 1, p: 3, position: 'relative', zIndex: 1, overflow: 'auto' }}>
+        <Grid container spacing={3} sx={{ height: { md: '100%', xs: 'auto' } }}>
           
           {/* LEFT: Control Side */}
-          <Grid item xs={12} md={4} sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <Grid item xs={12} md={4} sx={{ height: { md: '100%', xs: 'auto' }, display: 'flex', flexDirection: 'column' }}>
             <ControlPanel 
               prompt={nexus.prompt}
               setPrompt={nexus.setPrompt}
